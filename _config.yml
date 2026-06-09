@@ -1,0 +1,27 @@
+title: PS无界
+subtitle: 无图实战版
+description: 从工具的使用者，蜕变为创意的掌控者 — 一本让你真正理解 Photoshop 的教程
+author: 代可行
+language: zh-CN
+url: "https://ps.404w.com"
+
+theme: jekyll-theme-primer
+
+permalink: /:title/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  toc_levels: 1..3
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
+exclude:
+  - LICENSE.md
+  - README.md

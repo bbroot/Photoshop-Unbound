@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <style>
+    :root { --pico-font-family-sans-serif: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif; }
+    body { max-width: 52rem; margin: 0 auto; padding: 1rem 1.5rem 4rem; }
+    nav { margin-bottom: 2rem; }
+    nav a { text-decoration: none; font-weight: 600; margin-right: 1rem; }
+    nav a:hover { text-decoration: underline; }
+    article h1 { margin-top: 2rem; }
+    .toc { background: var(--pico-card-background-color); padding: 1rem 1.5rem; border-radius: var(--pico-border-radius); margin-bottom: 2rem; }
+    .toc ul { margin-bottom: 0; }
+    .toc a { text-decoration: none; }
+    .toc a:hover { text-decoration: underline; }
+    footer { margin-top: 3rem; font-size: .85rem; color: var(--pico-muted-color); text-align: center; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">{{ site.title }}</a>
+    <a href="/00_封面与目录.html">目录</a>
+  </nav>
+
+  <article>
+    {{ content }}
+  </article>
+
+  <footer>
+    <p>&copy; {{ site.author }} · {{ site.title }}</p>
+  </footer>
+</body>
+</html>
