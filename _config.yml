@@ -5,9 +5,7 @@ author: 代可行
 language: zh-CN
 url: "https://ps.404w.com"
 
-theme: jekyll-theme-primer
-
-permalink: /:title/
+permalink: /:title.html
 
 markdown: kramdown
 kramdown:
@@ -25,3 +23,6 @@ defaults:
 exclude:
   - LICENSE.md
   - README.md
+  - SUMMARY.md
+  - Gemfile
+  - Gemfile.lock
