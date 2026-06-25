@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280">
+  <defs>
+    <linearGradient id="bgd" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1a1a3e;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="accd" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="280" fill="url(#bgd)" rx="16"/>
+  <text x="60" y="95" font-family="Georgia,serif" font-size="46" font-weight="bold" fill="#f1f5f9">Photoshop Unbound</text>
+  <text x="60" y="130" font-family="'Segoe UI',sans-serif" font-size="16" fill="#94a3b8">PS无界 · 无图实战版</text>
+  <rect x="60" y="150" width="480" height="2" rx="1" fill="url(#accd)"/>
+  <text x="60" y="180" font-family="'Segoe UI',sans-serif" font-size="18" font-weight="bold" fill="#cbd5e1">Stop using Photoshop. Start mastering it.</text>
+  <text x="60" y="208" font-family="'Segoe UI',sans-serif" font-size="14" fill="#64748b">From tool operator to creative thinker — the Photoshop book that teaches you why, not just how.</text>
+  <text x="60" y="240" font-family="'Segoe UI',sans-serif" font-size="13" fill="#475569">14 chapters · 6 parts · No sample images · Pure logic, pure mastery</text>
+</svg>
