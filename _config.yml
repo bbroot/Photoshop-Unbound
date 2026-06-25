@@ -1,8 +1,9 @@
-title: PS无界
-subtitle: 无图实战版
-description: 从工具的使用者，蜕变为创意的掌控者 — 一本让你真正理解 Photoshop 的教程
+title: PS无界 | Photoshop Unbound
+subtitle: 无图实战版 · No-Image Practical Edition
+description: 从工具的使用者，蜕变为创意的掌控者 — 一本让你真正理解 Photoshop 的教程 / From tool operator to creative master.
 author: 无忌视觉
 language: zh-CN
+languages: [zh-CN, en]
 url: "https://ps.404w.com"
 
 permalink: /:title.html
@@ -24,5 +25,6 @@ exclude:
   - LICENSE.md
   - README.md
   - SUMMARY.md
+  - SUMMARY_EN.md
   - Gemfile
   - Gemfile.lock
